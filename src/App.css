@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+.homePage {
+  background-image: url("./assets/bakgrund\ webb\ app\ verktyg.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  /* border-radius: 0; */
+}
+
+@media (max-width: 769px) {
+  .homePage {
+    background-image: url("./assets/bakgrund\ webb\ app\ verktyg.jpg");
+    min-width: 390px;
+  }
+}
+
+.searchField {
+  position: absolute;
+  left: 137px;
+  top: 43px;
+  border: solid 1px red;
+  background-color: white;
+  height: 5em;
+  width: 20em;
+  border-radius: 20px;
+  /* font: ; -jag vill ha inte (google font?) */
+  /* stroke: black; -jag vill ha en skugga på insidan */
+}
+
+@media (max-width: 769px) {
+  .searchField {
+    /* position: absolute; */
+    left: 21px;
+    top: 52px;
+    height: 10em;
+    width: 22em;
+  }
+}
